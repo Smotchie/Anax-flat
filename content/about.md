@@ -8,3 +8,5 @@ The primary focus of this site is to:
 The source for this site is available on GitHub in [canax/anax-flat](git@github.com:canax/anax-flat.git).
 
 This site is produced by [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
+
+[Git repo för me-sidan](https://github.com/Smotchie/Anax-flat).
