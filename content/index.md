@@ -8,4 +8,4 @@ Det här är en webbsida som är gjord med Anax-flat, jag som har gjort den hete
 
 Hoppas ni kommer tycka om min me-sida, här kommer alla redovisningstexter för alla kursmoment att laddas upp också.
 
-![Bild på Markus](img/markus.jpg)
+<img src="img/markus.jpg" alt="Bild på Markus" style="width: 20em; border-radius: 1em;">

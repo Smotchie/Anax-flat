@@ -1,12 +1,7 @@
 Om den här sidan
 ==============================================
 
-The primary focus of this site is to:
-
-* To be used in teaching the [dbwebb course design](http://dbwebb.se/design).
-
-The source for this site is available on GitHub in [canax/anax-flat](git@github.com:canax/anax-flat.git).
-
-This site is produced by [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
+Huvudsaken med den här sidan är att man ska lära sig hur Anax-flat fungerar och hur man använder sig av det. Sedan kommer denna sidan och användas för alla redovisningstexter i detta kursmoment.
+<img src="img/about.jpg" style="padding: 1em; border-radius: 2em;">
 
 [Git repo för me-sidan](https://github.com/Smotchie/Anax-flat).
