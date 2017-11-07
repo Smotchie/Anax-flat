@@ -26,11 +26,6 @@ return [
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
-            "Test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Test page")
-            ],
             "Markdown" => [
                 "text"  => t("Markdown"),
                 "url"   => $this->di->get("url")->create("markdown"),
@@ -41,7 +36,7 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -65,9 +60,14 @@ return [
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
+            "Markdown" => [
+                "text"  => t("Markdown"),
+                "url"   => $this->di->get("url")->create("markdown"),
+                "title" => t("Markdown page")
+            ],
         ],
     ],
-*/
+
 
 
     /**
