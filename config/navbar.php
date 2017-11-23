@@ -31,6 +31,26 @@ return [
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Markdown page")
             ],
+            "Typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography page")
+            ],
+            "Grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid page")
+            ],
+            "Colorscheme" => [
+                "text"  => t("Colorscheme"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Colorscheme page")
+            ],
+            "Themeselector" => [
+                "text"  => t("Themeselector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Themeselector page")
+            ],
         ],
     ],
 
