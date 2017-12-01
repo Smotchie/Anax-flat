@@ -60,3 +60,5 @@ Just Blocket.se tror jag har sparat lite av sitt "gamla" tema och jag tror dom t
 5: Rubriker och en del texten är i H2 och när man går in på en sida är rubriken i H1 men storlek och tjocklek är stylad i css. Sidebar har rubriker i H3 men även där är det hårt stylat i css. Font family är serif.
 
 6: DN använder mycket ljusa färger, detta är effektivt när man försöker marknadsföra en produkt eller framkalla emotionell respons. Ljusa färger bidrar också till att användaren känner sig mer energisk
+
+Medlemmar: Jesper Grandien, Markus Holmberg, Sebastian Kullander, Björn Andersson

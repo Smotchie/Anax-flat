@@ -41,15 +41,15 @@ return [
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Grid page")
             ],
-            "Colorscheme" => [
-                "text"  => t("Colorscheme"),
+            "Analyser" => [
+                "text"  => t("Analyser"),
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Colorscheme page")
             ],
-            "Themeselector" => [
-                "text"  => t("Themeselector"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("Themeselector page")
+            "Theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme page")
             ],
         ],
     ],

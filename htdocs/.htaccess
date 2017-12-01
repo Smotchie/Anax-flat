@@ -1,10 +1,17 @@
 #
-# This is a modified rewrite to fit Anax when working on both local development
-# environment and publishing to www.student.bth.se.
-#
-# Do NOT forget to change /~mahm17/ to your own student acronym.
+# This is a Anax base for rewriting all requests to the frontcontroller
+# index.php, if the target route is not a file or a directory.
 #
 RewriteEngine on
+
+# Rewrite for cimage
+RewriteRule ^image/(.*)$ cimage/imgd.php?src=$1 [QSA,NC,L]
+
+# Rewrite to Anax frontcontroller
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule (.*) index.php/$1 [NC,L]
 
 # Igore real files (images, stylesheets etc.)
 RewriteCond %{REQUEST_FILENAME} -f [OR]
