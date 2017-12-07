@@ -51,6 +51,21 @@ return [
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Theme page")
             ],
+            "Blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg page")
+            ],
+            "Bilder" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Blogg page")
+            ],
+            "Design" => [
+                "text"  => t("Design"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Design page")
+            ],
         ],
     ],
 
